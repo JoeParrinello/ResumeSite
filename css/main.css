@@ -2,6 +2,13 @@ html{
   font-family:Oswald;
 }
 
+::selection{
+  background: #fff2b3
+}
+::-moz-selection {
+  background: #fff2b3
+}
+
 .content-container{
   max-width:960px;
   width:80%;
