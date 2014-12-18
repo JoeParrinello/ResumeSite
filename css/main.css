@@ -33,8 +33,19 @@ html{
   margin-bottom:6em;
 }
 
+
 .links > span:nth-of-type(odd){
   padding: 0 6em;
+}
+
+.links a{
+  color:#777;
+  text-decoration:none;
+  transition:all 0.6s;
+}
+
+.links a:hover{
+  color:#000;
 }
 
 .info {
