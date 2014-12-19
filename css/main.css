@@ -41,8 +41,8 @@ html{
 }
 
 
-.links > span:nth-of-type(odd){
-  padding: 0 6em;
+.links > span:nth-of-type(even){
+  padding: 0 20%;
 }
 
 .links a{
@@ -64,4 +64,30 @@ html{
 
 .info span {
   font-weight:700;
+}
+
+@media (max-width: 960px) {
+  .banner > h1 {
+    font-size:50px;
+  }
+}
+
+@media (max-width:720px){
+  .banner > h1{
+    font-size:30px;
+  }
+
+  .links > span:nth-of-type(even){
+    padding: 0 10%;
+  }
+}
+
+@media (max-width:480px){
+  .banner > h1{
+    font-size:25px;
+  }
+
+  .links > span:nth-of-type(even){
+    padding: 0 5%;
+  }
 }
