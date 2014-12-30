@@ -1,5 +1,10 @@
 html{
-  font-family:Oswald;
+  font-family:Oswald, sans-serif;
+  background-color:#FFFAFA;
+}
+
+p{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 ::selection{
@@ -7,6 +12,13 @@ html{
 }
 ::-moz-selection {
   background: #fff2b3
+}
+
+.container{
+  max-width:960px;
+  width:80%;
+  height:100%;
+  margin:0 auto;
 }
 
 .content-container{
@@ -17,6 +29,7 @@ html{
 }
 
 .banner{
+  padding-top:3em;
   text-align:center;
   /*margin-bottom:0.05em;*/
 }
@@ -30,10 +43,10 @@ html{
 }
 
 .links {
-  font-family:Arimo;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*font-family:Arimo;*/
   text-align:center;
-  letter-spacing:0.2em;
-  font-style:italic;
+  letter-spacing:0.15em;
   font-size:16px;
   font-weight:300;
   color:#777;
@@ -48,18 +61,24 @@ html{
 .links a{
   color:#777;
   text-decoration:none;
-  transition:all 0.6s;
+  transition:color 0.6s;
 }
 
 .links a:hover{
   color:#000;
 }
 
+.info h2{
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  font-family:Oswald;
+}
+
 .info {
-  font-family:Arimo;
+  font-family:Oswald, sans-serif;
   text-align:justify;
   font-weight:400;
-  letter-spacing:0.1em;
+  letter-spacing:0.03em;
 }
 
 .info span {
@@ -89,5 +108,10 @@ html{
 
   .links > span:nth-of-type(even){
     padding: 0 5%;
+  }
+
+  .container{
+    width:90%;
+
   }
 }
